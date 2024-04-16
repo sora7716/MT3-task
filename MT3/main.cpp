@@ -1,6 +1,17 @@
 #include <Novice.h>
+#include "Matrix4x4.h"
 
 const char kWindowTitle[] = "GC1B_01_イイヅカ_ソラ_title";
+
+static const int kRowHeight   = 20;
+static const int kColumnWidth = 60;
+void MatrixScreenPrintf(int x, int y, Matrix4x4 matrix) {
+	for (int row = 0; row < 4; ++row) {
+		for (int column = 0; column < 4; ++column) {
+			Novice::ScreenPrintf(x + column * kColumnWidth, y + row * kRowHeight, "%6.02f", matrix.m[row][column]);
+		}
+	}
+}
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
