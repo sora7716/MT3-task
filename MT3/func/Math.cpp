@@ -1,6 +1,6 @@
-#include "Math.h"
 #include <cassert>
-
+#include <cmath>
+#include "Math.h"
 
 //コンストラクター
 Math::Math(){
@@ -244,10 +244,10 @@ Matrix4x4 Math::MakeIdentity4x4() {
 Matrix4x4 Math::MakeScaleMatrix(const Vector3& scale)
 {
 	Matrix4x4 result{
-		scale.x,0,0,0,
-		0,scale.y,0,0,
-		0,0,scale.z,0,
-		0,0,0,1
+		scale.x,0.0f,0.0f,0.0f,
+		0.0f,scale.y,0.0f,0.0f,
+		0.0f,0.0f,scale.z,0.0f,
+		0.0f,0.0f,0.0f,1.0f
 	};
 
 	return result;
@@ -256,9 +256,9 @@ Matrix4x4 Math::MakeScaleMatrix(const Vector3& scale)
 //平行移動
 Matrix4x4 Math::MakeTranslateMatrix(const Vector3& translate) {
 	Matrix4x4 result{
-		1.0f,0,0,0,
-		0,1.0f,0,0,
-		0,0,1.0f,0,
+		1.0f,0.0f,0.0f,0.0f,
+		0.0f,1.0f,0.0f,0.0f,
+		0.0f,0.0f,1.0f,0.0f,
 		translate.x,translate.y,translate.z,1.0f
 	};
 
@@ -280,3 +280,44 @@ Vector3 Math::Transform(const Vector3& vector, const Matrix4x4& matrix)
 
 	return result;
 }
+
+Matrix4x4 Math::MakeRotateXMatrix(float radian)
+{
+	Matrix4x4 result{
+		1.0f,0.0f,0.0f,0.0f,
+		0.0f,std::cos(radian),std::sin(radian),0.0f,
+		0.0f,-std::sin(radian),std::cos(radian),0.0f,
+		0.0f,0.0f,0.0f,1.0f,
+	};
+	return result;
+}
+
+Matrix4x4 Math::MakeRotateYMatrix(float radian)
+{
+	Matrix4x4 result{
+		std::cos(radian),0.0f,-std::sin(radian),0.0f,
+		0.0f,1.0f,0.0f,0.0f,
+		std::sin(radian),0.0f,std::cos(radian),0.0f,
+		0.0f,0.0f,0.0f,1.0f
+	};
+
+	return result;
+}
+
+Matrix4x4 Math::MakeRotateZMatrix(float radian)
+{
+	Matrix4x4 result{
+		std::cos(radian),std::sin(radian),0.0f,0.0f,
+		-std::sin(radian),std::cos(radian),0.0f,0.0f,
+		0.0f,0.0f,1.0f,0.0f,
+		0.0f,0.0f,0.0f,1.0f
+	};
+	return result;
+}
+
+Matrix4x4 Math::MakeRotateXYZMatrix(Vector3 radian)
+{
+	return Multiply(MakeRotateXMatrix(radian.x), Multiply(MakeRotateYMatrix(radian.y), MakeRotateZMatrix(radian.z)));
+}
+
+
