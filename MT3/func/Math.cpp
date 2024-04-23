@@ -324,6 +324,7 @@ Matrix4x4 Math::MakeRotateXYZMatrix(Vector3 radian)
 	return Multiply(MakeRotateXMatrix(radian.x), Multiply(MakeRotateYMatrix(radian.y), MakeRotateZMatrix(radian.z)));
 }
 
+//アフィン関数
 Matrix4x4 Math::MakeAffineMatrix(const Vector3& scale, const Vector3& radian, const Vector3& translate)
 {
 	return Multiply(Multiply(MakeScaleMatrix(scale), MakeRotateXYZMatrix(radian)), MakeTranslateMatrix(translate));

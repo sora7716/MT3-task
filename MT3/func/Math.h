@@ -61,15 +61,15 @@ public:
 	/// <summary>
 	/// 拡大縮小
 	/// </summary>
-	/// <param name="scale">スケール</param>
-	/// <returns>スケールのマトリックス</returns>
+	/// <param name="scale">倍率</param>
+	/// <returns>倍率のマトリックス</returns>
 	static Matrix4x4 MakeScaleMatrix(const Vector3& scale);
 
 	/// <summary>
 	/// 平行移動
 	/// </summary>
-	/// <param name="translate">トランスレイト</param>
-	/// <returns>トランスレイトのマトリックス</returns>
+	/// <param name="translate">移動</param>
+	/// <returns>移動のマトリックス</returns>
 	static Matrix4x4 MakeTranslateMatrix(const Vector3& translate);
 
 	/// <summary>
@@ -108,5 +108,12 @@ public:
 	/// <returns>回転</returns>
 	static Matrix4x4 MakeRotateXYZMatrix(Vector3 radian);
 
+	/// <summary>
+	/// アフィン関数
+	/// </summary>
+	/// <param name="scale">倍率</param>
+	/// <param name="radian">角度</param>
+	/// <param name="translate">移動</param>
+	/// <returns>SRT</returns>
 	static Matrix4x4 MakeAffineMatrix(const Vector3& scale, const Vector3& radian, const Vector3& translate);
 };
