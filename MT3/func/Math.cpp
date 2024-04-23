@@ -15,6 +15,7 @@ Math::~Math() {
 
 }
 
+//加算
 Matrix4x4 Math::Add(const Matrix4x4& m1, const Matrix4x4& m2) {
 	Matrix4x4 result = {};
 	for (int i = 0; i < 4; i++) {
@@ -25,6 +26,7 @@ Matrix4x4 Math::Add(const Matrix4x4& m1, const Matrix4x4& m2) {
 	return result;
 }
 
+//減算
 Matrix4x4 Math::Subtract(const Matrix4x4& m1, const Matrix4x4& m2)
 {
 	Matrix4x4 result = {};
@@ -36,6 +38,7 @@ Matrix4x4 Math::Subtract(const Matrix4x4& m1, const Matrix4x4& m2)
 	return result;
 }
 
+//掛け算
 Matrix4x4 Math::Multiply(const Matrix4x4& m1, const Matrix4x4& m2) {
 	Matrix4x4 result;
 
@@ -50,6 +53,7 @@ Matrix4x4 Math::Multiply(const Matrix4x4& m1, const Matrix4x4& m2) {
 	return result;
 }
 
+//逆行列
 Matrix4x4 Math::Inverse(const Matrix4x4& m)
 {
 	Matrix4x4 result{};
@@ -215,6 +219,7 @@ Matrix4x4 Math::Inverse(const Matrix4x4& m)
 	return result;
 }
 
+//転置行列
 Matrix4x4 Math::Transpose(const Matrix4x4& m) {
 	Matrix4x4 result{};
 
@@ -227,6 +232,7 @@ Matrix4x4 Math::Transpose(const Matrix4x4& m) {
 	return result;
 }
 
+//単位行列
 Matrix4x4 Math::MakeIdentity4x4() {
 	Matrix4x4 result{
 		1.0f,0.0f,0.0f,0.0f,
