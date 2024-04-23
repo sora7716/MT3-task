@@ -281,6 +281,7 @@ Vector3 Math::Transform(const Vector3& vector, const Matrix4x4& matrix)
 	return result;
 }
 
+//x座標を軸に回転
 Matrix4x4 Math::MakeRotateXMatrix(float radian)
 {
 	Matrix4x4 result{
@@ -292,6 +293,7 @@ Matrix4x4 Math::MakeRotateXMatrix(float radian)
 	return result;
 }
 
+//y座標を軸に回転
 Matrix4x4 Math::MakeRotateYMatrix(float radian)
 {
 	Matrix4x4 result{
@@ -304,6 +306,7 @@ Matrix4x4 Math::MakeRotateYMatrix(float radian)
 	return result;
 }
 
+//z座標を軸に回転
 Matrix4x4 Math::MakeRotateZMatrix(float radian)
 {
 	Matrix4x4 result{
@@ -315,9 +318,15 @@ Matrix4x4 Math::MakeRotateZMatrix(float radian)
 	return result;
 }
 
+//x,y,z座標で回転
 Matrix4x4 Math::MakeRotateXYZMatrix(Vector3 radian)
 {
 	return Multiply(MakeRotateXMatrix(radian.x), Multiply(MakeRotateYMatrix(radian.y), MakeRotateZMatrix(radian.z)));
+}
+
+Matrix4x4 Math::MakeAffineMatrix(const Vector3& scale, const Vector3& radian, const Vector3& translate)
+{
+	return Multiply(Multiply(MakeScaleMatrix(scale), MakeRotateXYZMatrix(radian)), MakeTranslateMatrix(translate));
 }
 
 

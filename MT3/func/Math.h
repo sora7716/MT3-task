@@ -80,11 +80,33 @@ public:
 	/// <returns>デカルト座標系</returns>
 	static Vector3 Transform(const Vector3& vector, const Matrix4x4& matrix);
 
+	/// <summary>
+	/// x座標を軸に回転
+	/// </summary>
+	/// <param name="radian">角度</param>
+	/// <returns>x座標を軸の回転</returns>
 	static Matrix4x4 MakeRotateXMatrix(float radian);
 
+	/// <summary>
+	/// y座標を軸に回転
+	/// </summary>
+	/// <param name="radian">角度</param>
+	/// <returns>y座標を軸の回転</returns>
 	static Matrix4x4 MakeRotateYMatrix(float radian);
 
+	/// <summary>
+	/// z座標を軸に回転
+	/// </summary>
+	/// <param name="radian">角度</param>
+	/// <returns>z座標を軸の回転</returns>
 	static Matrix4x4 MakeRotateZMatrix(float radian);
 
+	/// <summary>
+	/// x,y,z座標で回転
+	/// </summary>
+	/// <param name="radian">角度</param>
+	/// <returns>回転</returns>
 	static Matrix4x4 MakeRotateXYZMatrix(Vector3 radian);
+
+	static Matrix4x4 MakeAffineMatrix(const Vector3& scale, const Vector3& radian, const Vector3& translate);
 };

@@ -43,7 +43,7 @@
               "RelativeDocumentMoniker": "func\\Math.h",
               "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.h",
               "RelativeToolTip": "func\\Math.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAADwv24AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-23T01:42:38.515Z",
               "IsPinned": true,
@@ -83,8 +83,7 @@
               "RelativeToolTip": "func\\ScreenPrintf.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-23T02:31:44.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T02:31:44.563Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\KamataEngine\\DirectXGame\\math\\Vector3.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-23T01:56:44.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T01:56:44.377Z"
             },
             {
               "$type": "Document",
@@ -107,7 +105,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-23T01:54:49.892Z",
               "EditorCaption": ""
@@ -120,7 +118,7 @@
               "RelativeDocumentMoniker": "func\\Math.cpp",
               "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.cpp",
               "RelativeToolTip": "func\\Math.cpp",
-              "ViewState": "AQIAAAYBAAAAAAAAAADgvzgBAAAVAAAA",
+              "ViewState": "AQIAADoBAAAAAAAAAAAewEQBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-23T01:41:47.805Z",
               "EditorCaption": ""
