@@ -5,17 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:Math\\Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:Math\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\konni\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\MyVector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,54 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyVector2.h",
-              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\MyVector2.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\MyVector2.h",
-              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\MyVector2.h",
-              "RelativeToolTip": "..\\..\\..\\..\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\MyVector2.h",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-16T03:37:23.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Math.cpp",
-              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.cpp",
-              "RelativeDocumentMoniker": "Math\\Math.cpp",
-              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.cpp",
-              "RelativeToolTip": "Math\\Math.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-16T02:47:58.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Math.h",
               "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.h",
               "RelativeDocumentMoniker": "Math\\Math.h",
               "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\Math\\Math.h",
               "RelativeToolTip": "Math\\Math.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-16T02:22:02.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAD4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-16T02:21:02.798Z",
+              "WhenOpened": "2024-04-23T01:48:33.247Z",
               "EditorCaption": ""
             }
           ]
