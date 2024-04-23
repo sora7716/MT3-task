@@ -1,0 +1,10 @@
+﻿  Math.cpp
+  ScreenPrintf.cpp
+  main.cpp
+C:\Users\konni\OneDrive\ドキュメント\GitHub\MT3\MT3\main.cpp(57,40): error C2065: 'kRowHeight': 定義されていない識別子です。
+C:\Users\konni\OneDrive\ドキュメント\GitHub\MT3\MT3\main.cpp(57,17): error C2660: 'ScreenPrintf::MatrixScreenPrintf': 関数に 3 個の引数を指定できません。
+  C:\Users\konni\OneDrive\ドキュメント\GitHub\MT3\MT3\func\ScreenPrintf.h(18,14):
+  'ScreenPrintf::MatrixScreenPrintf' の宣言を確認してください
+  C:\Users\konni\OneDrive\ドキュメント\GitHub\MT3\MT3\main.cpp(57,17):
+  引数リスト '(int, Matrix4x4, const char [12])' を一致させようとしているとき
+  

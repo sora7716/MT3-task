@@ -1,7 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\konni\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\\u6559\u79D1\\MT3\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:func\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:func\\ScreenPrintf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:func\\ScreenPrintf.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|solutionrelative:func\\Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D2C281-1FE6-4A4D-9E47-611C2A0805CE}|MT3.vcxproj|C:\\KamataEngine\\DirectXGame\\math\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +46,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScreenPrintf.cpp",
+              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.cpp",
+              "RelativeDocumentMoniker": "func\\ScreenPrintf.cpp",
+              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.cpp",
+              "RelativeToolTip": "func\\ScreenPrintf.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-23T02:31:47.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScreenPrintf.h",
+              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.h",
+              "RelativeDocumentMoniker": "func\\ScreenPrintf.h",
+              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\ScreenPrintf.h",
+              "RelativeToolTip": "func\\ScreenPrintf.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-23T02:31:44.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vector3.h",
+              "DocumentMoniker": "C:\\KamataEngine\\DirectXGame\\math\\Vector3.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\KamataEngine\\DirectXGame\\math\\Vector3.h",
+              "ToolTip": "C:\\KamataEngine\\DirectXGame\\math\\Vector3.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\KamataEngine\\DirectXGame\\math\\Vector3.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-23T01:56:44.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwCAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-23T01:54:49.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Math.h",
+              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.h",
+              "RelativeDocumentMoniker": "func\\Math.h",
+              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.h",
+              "RelativeToolTip": "func\\Math.h",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwE8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-23T01:42:38.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Math.cpp",
+              "DocumentMoniker": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.cpp",
+              "RelativeDocumentMoniker": "func\\Math.cpp",
+              "ToolTip": "C:\\Users\\konni\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\GitHub\\MT3\\MT3\\func\\Math.cpp",
+              "RelativeToolTip": "func\\Math.cpp",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAIwAsBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-23T01:41:47.805Z",
+              "EditorCaption": ""
             }
           ]
         }

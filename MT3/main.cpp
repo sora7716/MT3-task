@@ -1,6 +1,8 @@
 #include <Novice.h>
+#include "func/Math.h"
+#include "func/ScreenPrintf.h"
 
-const char kWindowTitle[] = "GC1B_01_イイヅカ_ソラ_title";
+const char kWindowTitle[] = "GC2B_01_イイヅカ_ソラ_title";
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
@@ -11,6 +13,24 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
 	char preKeys[256] = {0};
+
+	Math* math = new Math;
+	Vector3 translate{ 4.1f,2.6f,0.8f };
+	Vector3 scale { 1.5f, 5.2f, 7.3f };
+
+	Matrix4x4 translateMatrix = math->MakeTranslateMatrix(translate);
+	Matrix4x4 scaleMatrix     = math->MakeScaleMatrix(scale);
+
+	Vector3 point{ 2.3f,3.8f,1.4f };
+
+	Matrix4x4 transformMatrix{
+		1.0f,2.0f,3.0f,4.0f,
+		3.0f,1.0f,1.0f,2.0f,
+		1.0f,4.0f,2.0f,3.0f,
+		2.0f,2.0f,1.0f,3.0f
+	};
+
+	Vector3 transformed = math->Transform(point, transformMatrix);;
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
@@ -24,7 +44,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓更新処理ここから
 		///
-
+	
 		///
 		/// ↑更新処理ここまで
 		///
@@ -32,7 +52,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
-
+		ScreenPrintf::VectorScreenPrintf(0, 0, transformed, "transformed");
+		ScreenPrintf::MatrixScreenPrintf(0, 20, translateMatrix, "translateMatrix");
+		ScreenPrintf::MatrixScreenPrintf(0, (kRowHeight * 5) + 20, scaleMatrix, "scaleMatrix");
 		///
 		/// ↑描画処理ここまで
 		///
@@ -46,6 +68,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		}
 	}
 
+	delete math;
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
