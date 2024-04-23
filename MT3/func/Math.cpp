@@ -1,8 +1,5 @@
 #include "Math.h"
-
-#include <stdio.h>
-
-#define N 4
+#include <cassert>
 
 
 //コンストラクター
@@ -240,5 +237,46 @@ Matrix4x4 Math::MakeIdentity4x4() {
 		0.0f,0.0f,1.0f,0.0f,
 		0.0f,0.0f,0.0f,1.0f,
 	};
+	return result;
+}
+
+//拡縮
+Matrix4x4 Math::MakeScaleMatrix(const Vector3& scale)
+{
+	Matrix4x4 result{
+		scale.x,0,0,0,
+		0,scale.y,0,0,
+		0,0,scale.z,0,
+		0,0,0,1
+	};
+
+	return result;
+}
+
+//平行移動
+Matrix4x4 Math::MakeTranslateMatrix(const Vector3& translate) {
+	Matrix4x4 result{
+		1.0f,0,0,0,
+		0,1.0f,0,0,
+		0,0,1.0f,0,
+		translate.x,translate.y,translate.z,1.0f
+	};
+
+	return result;
+}
+
+//同次座標系で計算しデカルト座標系に変換
+Vector3 Math::Transform(const Vector3& vector, const Matrix4x4& matrix)
+{
+	Vector3 result{};
+	result.x = vector.x * matrix.m[0][0] + vector.y * matrix.m[1][0] + vector.z * matrix.m[2][0] + 1.0f * matrix.m[3][0];
+	result.y = vector.x * matrix.m[0][1] + vector.y * matrix.m[1][1] + vector.z * matrix.m[2][1] + 1.0f * matrix.m[3][1];
+	result.z = vector.x * matrix.m[0][2] + vector.y * matrix.m[1][2] + vector.z * matrix.m[2][2] + 1.0f * matrix.m[3][2];
+	float w  = vector.x * matrix.m[0][3] + vector.y * matrix.m[1][3] + vector.z * matrix.m[2][3] + 1.0f * matrix.m[3][3];
+	assert(w != 0.0f);
+	result.x /= w;
+	result.y /= w;
+	result.z /= w;
+
 	return result;
 }

@@ -41,6 +41,9 @@
     <ClCompile Include="func\Math.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
+    <ClCompile Include="func\ScreenPrintf.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -115,5 +118,6 @@
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
     <ClInclude Include="func\Math.h" />
+    <ClInclude Include="func\ScreenPrintf.h" />
   </ItemGroup>
 </Project>
