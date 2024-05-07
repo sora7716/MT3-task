@@ -3,8 +3,7 @@
 #include <Vector3.h>
 static const int kRowHeight   = 20;
 static const int kColumnWidth = 60;
-class ScreenPrintf
-{
+class ScreenPrintf{
 public:
 	/// <summary>
 	/// マトリックスのスクリーンプリント
