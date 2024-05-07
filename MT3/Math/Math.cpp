@@ -2,19 +2,16 @@
 #include <math.h>
 
 //コンストラクター
-Function::Function()
-{
+Function::Function(){
 	k = { 4.0f };
 }
 
 //デストラクター
-Function::~Function()
-{
+Function::~Function(){
 }
 
 //足し算
-MyVector3 Function::Add(MyVector3 v1, MyVector3 v2)
-{
+MyVector3 Function::Add(MyVector3 v1, MyVector3 v2){
 	MyVector3 result = MyVector3();
 	result = v1 + v2;
 	return result;
