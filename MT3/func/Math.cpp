@@ -321,4 +321,3 @@ Matrix4x4 Math::MakeAffineMatrix(const Vector3& scale, const Vector3& radian, co
 	return Multiply(Multiply(MakeScaleMatrix(scale), MakeRotateXYZMatrix(radian)), MakeTranslateMatrix(translate));
 }
 
-}
