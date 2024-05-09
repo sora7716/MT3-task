@@ -116,4 +116,38 @@ public:
 	/// <param name="translate">移動</param>
 	/// <returns>SRT</returns>
 	static Matrix4x4 MakeAffineMatrix(const Vector3& scale, const Vector3& radian, const Vector3& translate);
+
+	/// <summary>
+	/// 正射影行列
+	/// </summary>
+	/// <param name="left">画面の左端</param>
+	/// <param name="top">画面の上端</param>
+	/// <param name="right">画面の右端</param>
+	/// <param name="bottom">画面の下端</param>
+	/// <param name="nearClip">近平面</param>
+	/// <param name="farClip">遠平面</param>
+	/// <returns>OrthographicMatrix</returns>
+	static Matrix4x4 MakeOrthographicMatrix(float left, float top, float right, float bottom, float nearClip, float farClip);
+
+	/// <summary>
+	/// 透視投影行列
+	/// </summary>
+	/// <param name="fovY">画角</param>
+	/// <param name="aspectRation">アスペクト比</param>
+	/// <param name="nearClip">近平面への距離</param>
+	/// <param name="farClip">遠平面への距離</param>
+	/// <returns>PerspectiveFovMatrix</returns>
+	static Matrix4x4 MakePerspectiveFovMatrix(float fovY, float aspectRation, float nearClip, float farClip);
+
+	/// <summary>
+	/// ビューポートマトリックス
+	/// </summary>
+	/// <param name="left">左</param>
+	/// <param name="top">上</param>
+	/// <param name="width">横幅</param>
+	/// <param name="height">縦幅</param>
+	/// <param name="minDepth">最小深度値</param>
+	/// <param name="maxDepth">最大深度値</param>
+	/// <returns>ViewportMatrix</returns>
+	static Matrix4x4 MakeViewportMatrix(float left, float top, float width, float height, float minDepth, float maxDepth);
 };
